@@ -46,6 +46,7 @@ def test_get_accident_severity_low():
 '''
 # a unit test that tests the status code and response 
 # for an instance with accident_severity equal to 1
+'''
 def test_get_accident_severity_medium():
 
     person = {
@@ -69,10 +70,11 @@ def test_get_accident_severity_medium():
     print(r.json())
     assert r.status_code == 200
     assert r.json() == "Accident_severity: 1"
-    
+'''    
 # a unit test that tests the status code and response 
 # for an instance with accident_severity equal to 2
-def test_get_accident_severity_high():
+
+def test_accident_severity_high():
     
     person = {
         "Age_band_of_driver": '18-30',
@@ -95,3 +97,4 @@ def test_get_accident_severity_high():
     print(r.json())
     assert r.status_code == 200
     assert r.json() == "Accident_severity: 2"
+
