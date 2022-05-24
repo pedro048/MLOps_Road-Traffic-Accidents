@@ -18,8 +18,8 @@ def test_root():
     assert r.status_code == 200
 
 # a unit test that tests the status code and response 
-# for an instance with a low income
-def test_get_Accident_severity_0():
+# for an instance with accident_severity equal to 0
+def test_get_accident_severity_0():
 
     person = {
         "Age_band_of_driver": '18-30',
@@ -44,8 +44,8 @@ def test_get_Accident_severity_0():
     assert r.json() == "Accident_severity: 0"
 
 # a unit test that tests the status code and response 
-# for an instance with a high income
-def test_get_Accident_severity_1():
+# for an instance with accident_severity equal to 1
+def test_get_accident_severity_1():
 
     person = {
         "Age_band_of_driver": '18-30',
@@ -70,9 +70,9 @@ def test_get_Accident_severity_1():
     assert r.json() == "Accident_severity: 1"
     
 # a unit test that tests the status code and response 
-# for an instance with a high income
-def test_get_Accident_severity_2():
-
+# for an instance with accident_severity equal to 2
+def test_get_accident_severity_2():
+    
     person = {
         "Age_band_of_driver": '18-30',
         "Sex_of_driver": 'Male',
