@@ -19,6 +19,7 @@ def test_root():
 
 # a unit test that tests the status code and response 
 # for an instance with accident_severity equal to 0
+'''
 def test_get_accident_severity_low():
 
     person = {
@@ -42,7 +43,7 @@ def test_get_accident_severity_low():
     # print(r.json())
     assert r.status_code == 200
     assert r.json() == "Accident_severity: 0"
-
+'''
 # a unit test that tests the status code and response 
 # for an instance with accident_severity equal to 1
 def test_get_accident_severity_medium():
