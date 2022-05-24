@@ -1,4 +1,4 @@
-name: MLOps_Road_Traffic_Accidents
+name: MLOps_Road-Traffic-Accidents
 channels:
   - conda-forge
   - defaults
