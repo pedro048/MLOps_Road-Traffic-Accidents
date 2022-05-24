@@ -19,7 +19,7 @@ def test_root():
 
 # a unit test that tests the status code and response 
 # for an instance with accident_severity equal to 0
-def test_get_accident_severity_0():
+def test_get_accident_severity_low():
 
     person = {
         "Age_band_of_driver": '18-30',
@@ -45,7 +45,7 @@ def test_get_accident_severity_0():
 
 # a unit test that tests the status code and response 
 # for an instance with accident_severity equal to 1
-def test_get_accident_severity_1():
+def test_get_accident_severity_medium():
 
     person = {
         "Age_band_of_driver": '18-30',
@@ -71,7 +71,7 @@ def test_get_accident_severity_1():
     
 # a unit test that tests the status code and response 
 # for an instance with accident_severity equal to 2
-def test_get_accident_severity_2():
+def test_get_accident_severity_high():
     
     person = {
         "Age_band_of_driver": '18-30',
