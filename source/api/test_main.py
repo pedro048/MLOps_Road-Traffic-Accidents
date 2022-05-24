@@ -27,7 +27,7 @@ def test_get_accident_severity_low():
         "Sex_of_driver": 'Male',
         "Educational_level": 'Unknown',
         "Vehicle_driver_relation": 'Unknown',
-        "Driving_experience":  'Unknown',
+        "Driving_experience": 'Unknown',
         "Lanes_or_Medians": 'Two-way (divided with broken lines road marking)',
         "Types_of_Junction": 'Y Shape',
         "Road_surface_type": 'Asphalt roads',
@@ -81,7 +81,7 @@ def test_accident_severity_high():
         "Sex_of_driver": 'Male',
         "Educational_level": 'Above high school',
         "Vehicle_driver_relation": 'Employee',
-        "Driving_experience":  '1-2yr',
+        "Driving_experience": '1-2yr',
         "Lanes_or_Medians": 'Unknown',
         "Types_of_Junction": 'No junction',
         "Road_surface_type": 'Asphalt roads',
@@ -94,7 +94,7 @@ def test_accident_severity_high():
     }
 
     r = client.post("/predict", json=person)
-    print(r.json())
+    #print(r.json())
     assert r.status_code == 200
     assert r.json() == "Accident_severity: 2"
 
