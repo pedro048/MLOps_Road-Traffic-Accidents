@@ -92,10 +92,10 @@ def test_accident_severity_high():
         "Pedestrian_movement": 'Not a Pedestrian',
         "Cause_of_accident": 'Moving Backward'
     }
-'''
-    r = client.post("/predict", json=person)
+
+    r = client.post("/predict")
     #print(r.json())
     assert r.status_code == 200
     assert r.json() == "Accident_severity: 2"
-    '''
+    
 
