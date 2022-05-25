@@ -19,7 +19,7 @@ def test_root():
 
 # a unit test that tests the status code and response 
 # for an instance with accident_severity equal to 0
-'''
+
 def test_get_accident_severity_low():
 
     person = {
@@ -43,10 +43,10 @@ def test_get_accident_severity_low():
     # print(r.json())
     assert r.status_code == 200
     assert r.json() == "Accident_severity: 0"
-'''
+
 # a unit test that tests the status code and response 
 # for an instance with accident_severity equal to 1
-'''
+
 def test_get_accident_severity_medium():
 
     person = {
@@ -67,13 +67,13 @@ def test_get_accident_severity_medium():
     }
 
     r = client.post("/predict", json=person)
-    print(r.json())
+    #print(r.json())
     assert r.status_code == 200
     assert r.json() == "Accident_severity: 1"
-'''    
+   
 # a unit test that tests the status code and response 
 # for an instance with accident_severity equal to 2
-client1 = TestClient(app)
+
 def test_accident_severity_high():
     
     person = {
@@ -93,9 +93,7 @@ def test_accident_severity_high():
         "Cause_of_accident": 'Moving Backward'
     }
 
-    r = client1.post("/predict", json=person)
-    print(r.json())
+    r = client.post("/predict", json=person)
+    #print(r.json())
     assert r.status_code == 200
     assert r.json() == "Accident_severity: 2"
-    
-
