@@ -95,7 +95,7 @@ def test_accident_severity_high():
 
     r = client.post("/", json=person)
     #print(r.json())
-    assert r.status_code == 200
+    #assert r.status_code == 200
     assert r.json() == "Accident_severity: 2"
     
 
