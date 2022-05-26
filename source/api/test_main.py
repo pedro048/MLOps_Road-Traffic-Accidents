@@ -20,9 +20,9 @@ def test_root():
 # a unit test that tests the status code and response 
 # for an instance with accident_severity equal to 0
 
-def test_get_accident_severity_low():
+def test_get_accident_severity_0():
 
-    person = {
+    driver = {
         "Age_band_of_driver": '18-30',
         "Sex_of_driver": 'Male',
         "Educational_level": 'Unknown',
@@ -39,7 +39,7 @@ def test_get_accident_severity_low():
         "Cause_of_accident": 'Driving under the influence of drugs'
     }
 
-    r = client.post("/predict", json=person)
+    r = client.post("/predict", json=driver)
     # print(r.json())
     assert r.status_code == 200
     assert r.json() == "Accident_severity: 0"
@@ -47,9 +47,9 @@ def test_get_accident_severity_low():
 # a unit test that tests the status code and response 
 # for an instance with accident_severity equal to 1
 
-def test_get_accident_severity_medium():
+def test_get_accident_severity_1():
 
-    person = {
+    driver = {
         "Age_band_of_driver": '18-30',
         "Sex_of_driver": 'Male',
         "Educational_level": 'Junior high school',
@@ -66,7 +66,7 @@ def test_get_accident_severity_medium():
         "Cause_of_accident": 'Changing lane to the left'
     }
 
-    r = client.post("/predict", json=person)
+    r = client.post("/predict", json=driver)
     #print(r.json())
     assert r.status_code == 200
     assert r.json() == "Accident_severity: 1"
@@ -74,9 +74,9 @@ def test_get_accident_severity_medium():
 # a unit test that tests the status code and response 
 # for an instance with accident_severity equal to 2
 
-def test_accident_severity_high():
+def test_get_accident_severity_2():
     
-    person = {
+    driver = {
         "Age_band_of_driver": '18-30',
         "Sex_of_driver": 'Male',
         "Educational_level": 'Above high school',
@@ -93,7 +93,7 @@ def test_accident_severity_high():
         "Cause_of_accident": 'Moving Backward'
     }
 
-    r = client.post("/predict", json=person)
+    r = client.post("/predict", json=driver)
     #print(r.json())
     assert r.status_code == 200
     assert r.json() == "Accident_severity: 2"
