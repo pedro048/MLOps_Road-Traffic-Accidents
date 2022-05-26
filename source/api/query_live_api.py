@@ -9,7 +9,7 @@ import requests
 import json
 # import pprint
 
-person = {
+driver = {
     "Age_band_of_driver": '18-30',
     "Sex_of_driver": 'Female',
     "Educational_level": 'High school',
@@ -29,22 +29,22 @@ person = {
 #url = "http://127.0.0.1:8000"
 url = "https://road-traffic-accidents-app.herokuapp.com"
 response = requests.post(f"{url}/predict",
-                         json=person)
+                         json=driver)
 
 print(f"Request: {url}/predict")
-print(f"Person: \n Age_band_of_driver: {person['Age_band_of_driver']}\n Sex_of_driver: {person['Sex_of_driver']}\n"\
-      f" Educational_level: {person['Educational_level']}\n"\
-      f" Vehicle_driver_relation: {person['Vehicle_driver_relation']}\n"\
-      f" Driving_experience: {person['Driving_experience']}\n"\
-      f" Lanes_or_Medians: {person['Lanes_or_Medians']}\n"\
-      f" Types_of_Junction: {person['Types_of_Junction']}\n"\
-      f" Road_surface_type: {person['Road_surface_type']}\n"\
-      f" Light_conditions: {person['Light_conditions']}\n"\
-      f" Weather_conditions: {person['Weather_conditions']}\n"\
-      f" Type_of_collision: {person['Type_of_collision']}\n"\
-      f" Vehicle_movement: {person['Vehicle_movement']}\n"\
-      f" Pedestrian_movement: {person['Pedestrian_movement']}\n"
-      f" Cause_of_accident: {person['Cause_of_accident']}\n"
+print(f"Person: \n Age_band_of_driver: {driver['Age_band_of_driver']}\n Sex_of_driver: {driver['Sex_of_driver']}\n"\
+      f" Educational_level: {driver['Educational_level']}\n"\
+      f" Vehicle_driver_relation: {driver['Vehicle_driver_relation']}\n"\
+      f" Driving_experience: {driver['Driving_experience']}\n"\
+      f" Lanes_or_Medians: {driver['Lanes_or_Medians']}\n"\
+      f" Types_of_Junction: {driver['Types_of_Junction']}\n"\
+      f" Road_surface_type: {driver['Road_surface_type']}\n"\
+      f" Light_conditions: {driver['Light_conditions']}\n"\
+      f" Weather_conditions: {driver['Weather_conditions']}\n"\
+      f" Type_of_collision: {driver['Type_of_collision']}\n"\
+      f" Vehicle_movement: {driver['Vehicle_movement']}\n"\
+      f" Pedestrian_movement: {driver['Pedestrian_movement']}\n"
+      f" Cause_of_accident: {driver['Cause_of_accident']}\n"
      )
 print(f"Result of model inference: {response.json()}")
 print(f"Status code: {response.status_code}")
