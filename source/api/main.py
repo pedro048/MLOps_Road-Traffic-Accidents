@@ -29,7 +29,7 @@ app = FastAPI()
 
 # declare request example data using pydantic
 # a person in our dataset has the following attributes
-class Person(BaseModel):
+class Driver(BaseModel):
     Age_band_of_driver: str
     Sex_of_driver: str
     Educational_level: str
@@ -77,7 +77,7 @@ async def root():
 
 # run the model inference and use a Person data structure via POST to the API.
 @app.post("/predict")
-async def get_inference(person: Person):
+async def get_inference(driver: Driver):
     
     # Download inference artifact
     model_export_path = run.use_artifact(artifact_model_name).file()
@@ -87,7 +87,7 @@ async def get_inference(person: Person):
     # note that we could use pd.DataFrame.from_dict
     # but due be only one instance, it would be necessary to
     # pass the Index.
-    df = pd.DataFrame([person.dict()])
+    df = pd.DataFrame([driver.dict()])
 
     # Predict test data
     predict = pipe.predict(df)
