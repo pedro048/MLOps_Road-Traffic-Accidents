@@ -1,0 +1,25 @@
+{
+    "os": "Linux-5.15.0-33-generic-x86_64-with-glibc2.10",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-05-26T11:31:50.200207",
+    "startedAt": "2022-05-26T11:31:47.471739",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "source/api",
+        "-vv",
+        "-s"
+    ],
+    "state": "running",
+    "program": "/home/pedro/anaconda3/envs/MLOps_Road_Traffic_Accidents/bin/pytest",
+    "git": {
+        "remote": "https://github.com/pedro048/MLOps_Road-Traffic-Accidents.git",
+        "commit": "0445a3ae5fb3ab817c8e1dec4e028ae7814023f2"
+    },
+    "email": "pedro,andrade046@gmail.com",
+    "root": "/home/pedro/wip/MLOps_Road-Traffic-Accidents",
+    "host": "pedro-340XAA-350XAA-550XAA",
+    "username": "pedro",
+    "executable": "/home/pedro/anaconda3/envs/MLOps_Road_Traffic_Accidents/bin/python"
+}
