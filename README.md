@@ -11,14 +11,16 @@
 
 **Dataset:** [Road_Traffic_Accidents.csv](https://www.kaggle.com/datasets/saurabhshahane/road-traffic-accidents)
 
+## Project's overview:
+
 ## Workflow:
 
 ![Workflow](https://lh3.googleusercontent.com/pw/AM-JKLUCw27d6nW0YYrq-zIshMFLMSbCssGxQtNiQMwzxGu7W83kIgmfWlg75IKaNCCDuIB2Dk2ZTGLfEyvDt-AsW3F9m_MIVMlJoBPomkgBolc3WuSYvM2E3uFNDtcFgwhNE-dj1EcEMTtkhi8qmqBzvv9H=w1496-h948-no?authuser=0)
 
-**Project's workflow:** https://github.com/pedro048/MLOps_Road-Traffic-Accidents/blob/main/Project_Road_Traffic_Accidents/Project_Road_Traffic_Accidents.ipynb 
+### **Project's workflow:** https://github.com/pedro048/MLOps_Road-Traffic-Accidents/blob/main/Project_Road_Traffic_Accidents/Project_Road_Traffic_Accidents.ipynb 
 
 ## Deploy:
 
 ![Deploy](https://lh3.googleusercontent.com/pw/AM-JKLXlXm09RhjF_hoHXWz4MhCFU9jF4VKlJr1OIcSinD0itYVclc8fJdRqTA6ECoBKcX7QLT8Ln8tRukszIyxMZIr_Y75nUxSp9DtY-xYXFHyVoDy6fSXCY_lU2mgjAqqdGL4lYrFOwsC22Eh9Tx55JgHz=w1598-h949-no?authuser=0)
 
-**API Deliveried with Heroku:** https://road-traffic-accidents-app.herokuapp.com/docs
+### **API Deliveried with Heroku:** https://road-traffic-accidents-app.herokuapp.com/docs
