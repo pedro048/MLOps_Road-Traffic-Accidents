@@ -13,10 +13,10 @@
 
 ## Workflow:
 
-![Workflow](https://ibb.co/XYY1SM8)
+![Workflow](https://photos.google.com/photo/AF1QipMNCiBXPGisWl5LHk7yZ0sv7rLqC4eA4IuUqOyn)
 
 ## Deploy:
 
-![Deploy](https://ibb.co/L11MBzd)
+![Deploy](https://photos.google.com/photo/AF1QipNmCOR0yrrWlVKp3Svv9vVmXX11QQK2kYa8SIn5)
 
 API Deliveried with Heroku: https://road-traffic-accidents-app.herokuapp.com/docs
