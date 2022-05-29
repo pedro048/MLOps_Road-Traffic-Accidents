@@ -13,6 +13,10 @@
 
 ## Project's overview:
 
+The dataset Road_Traffic_Accidents.csv was collected from Addis Ababa Sub city police departments for Masters research work and it has been prepared from manual records of road traffic accident of the year 2017-2020. All the sensitive information have been excluded during data encoding and finally it has 32 features and 12316 instances of the accident. Then it is preprocessed and for identification of major causes of the accident by analyzing it using different machine learning classification algorithms.
+
+In this project you will find the steps necessary for building a classification model, such as setting up the environment, performing exploratory data analysis (EDA), processing and training your model, and deploying a pipeline in production. All the code mentioned at the sessions below can be also found in this [Jupyter Notebook](https://github.com/pedro048/MLOps_Road-Traffic-Accidents/blob/main/Project_Road_Traffic_Accidents/Project_Road_Traffic_Accidents.ipynb), since we're gonna be using Python. 
+
 ## Workflow:
 
 ![Workflow](https://lh3.googleusercontent.com/pw/AM-JKLUCw27d6nW0YYrq-zIshMFLMSbCssGxQtNiQMwzxGu7W83kIgmfWlg75IKaNCCDuIB2Dk2ZTGLfEyvDt-AsW3F9m_MIVMlJoBPomkgBolc3WuSYvM2E3uFNDtcFgwhNE-dj1EcEMTtkhi8qmqBzvv9H=w1496-h948-no?authuser=0)
