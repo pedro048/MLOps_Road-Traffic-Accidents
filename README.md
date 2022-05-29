@@ -13,10 +13,10 @@
 
 ## Workflow:
 
-![Workflow](https://photos.google.com/photo/AF1QipMNCiBXPGisWl5LHk7yZ0sv7rLqC4eA4IuUqOyn)
+![Workflow](https://photos.google.com/share/AF1QipNC65mQy4RijoOMn8TKf00rvoRdC0lECRCD4xfNnhjWDunQDM3RSoWXGwQyQKYrFg/photo/AF1QipMrUth3Z66dOgqbKveSs9ApneUNaKx45osjobcw?key=WGpNczROcUJwU2JCUDhzNFVPMTB6RmRVZ1RpaGFn)
 
 ## Deploy:
 
-![Deploy](https://photos.google.com/photo/AF1QipNmCOR0yrrWlVKp3Svv9vVmXX11QQK2kYa8SIn5)
+![Deploy]([https://photos.google.com/photo/AF1QipNmCOR0yrrWlVKp3Svv9vVmXX11QQK2kYa8SIn5](https://photos.google.com/share/AF1QipNC65mQy4RijoOMn8TKf00rvoRdC0lECRCD4xfNnhjWDunQDM3RSoWXGwQyQKYrFg/photo/AF1QipMO2aJ-ZpVG_VO4ON0BAeqzWsFDuT7I7Qqk9QtM?key=WGpNczROcUJwU2JCUDhzNFVPMTB6RmRVZ1RpaGFn))
 
 API Deliveried with Heroku: https://road-traffic-accidents-app.herokuapp.com/docs
