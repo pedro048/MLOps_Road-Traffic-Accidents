@@ -1,3 +1,6 @@
+# Projeto de MLOps: Road Traffic Accidents
+
+**Programa de Pós-graduação em Engenharia Elétrica e de Computação - UFRN** 
 **Disciplina:** Aprendizagem de Máquina **(EEC1509)**
 
 **Grupo:** 
