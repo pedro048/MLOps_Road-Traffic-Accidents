@@ -34,3 +34,9 @@ In this project you will find the steps necessary for building a classification 
 ![Deploy](https://lh3.googleusercontent.com/pw/AM-JKLXlXm09RhjF_hoHXWz4MhCFU9jF4VKlJr1OIcSinD0itYVclc8fJdRqTA6ECoBKcX7QLT8Ln8tRukszIyxMZIr_Y75nUxSp9DtY-xYXFHyVoDy6fSXCY_lU2mgjAqqdGL4lYrFOwsC22Eh9Tx55JgHz=w1598-h949-no?authuser=0)
 
 ### **API Deliveried with Heroku:** https://road-traffic-accidents-app.herokuapp.com/docs
+
+## References:
+
+https://github.com/ivanovitchm/ppgeecmachinelearning
+https://github.com/ivanovitchm/colab2mlops
+https://www.kaggle.com/datasets/saurabhshahane/road-traffic-accidents
