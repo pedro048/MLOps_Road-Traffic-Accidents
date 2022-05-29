@@ -41,3 +41,7 @@ In this project you will find the steps necessary for building a classification 
 - https://github.com/ivanovitchm/colab2mlops
 
 - https://www.kaggle.com/datasets/saurabhshahane/road-traffic-accidents
+
+- https://wandb.ai/site
+
+- https://id.heroku.com/login
