@@ -2,7 +2,7 @@
 
 **PROGRAMA DE PÓS-GRADUAÇÃO EM ENGENHARIA ELÉTRICA E DE COMPUTAÇÃO (PPgEEC) - UFRN**
 
-**Disciplina:** Aprendizagem de Máquina **(EEC1509)**
+**Disciplina:** Machine Learning **(EEC1509)**
 
 **Grupo:** 
 
@@ -17,6 +17,6 @@
 
 ## Deploy:
 
-![Deploy](https://photos.google.com/share/AF1QipNC65mQy4RijoOMn8TKf00rvoRdC0lECRCD4xfNnhjWDunQDM3RSoWXGwQyQKYrFg/photo/AF1QipMO2aJ-ZpVG_VO4ON0BAeqzWsFDuT7I7Qqk9QtM?key=WGpNczROcUJwU2JCUDhzNFVPMTB6RmRVZ1RpaGFn](https://lh3.googleusercontent.com/pw/AM-JKLXlXm09RhjF_hoHXWz4MhCFU9jF4VKlJr1OIcSinD0itYVclc8fJdRqTA6ECoBKcX7QLT8Ln8tRukszIyxMZIr_Y75nUxSp9DtY-xYXFHyVoDy6fSXCY_lU2mgjAqqdGL4lYrFOwsC22Eh9Tx55JgHz=w1598-h949-no?authuser=0)
+![Deploy](https://lh3.googleusercontent.com/pw/AM-JKLXlXm09RhjF_hoHXWz4MhCFU9jF4VKlJr1OIcSinD0itYVclc8fJdRqTA6ECoBKcX7QLT8Ln8tRukszIyxMZIr_Y75nUxSp9DtY-xYXFHyVoDy6fSXCY_lU2mgjAqqdGL4lYrFOwsC22Eh9Tx55JgHz=w1598-h949-no?authuser=0)
 
 API Deliveried with Heroku: https://road-traffic-accidents-app.herokuapp.com/docs
