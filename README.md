@@ -2,7 +2,7 @@
 
 **PROGRAMA DE PÓS-GRADUAÇÃO EM ENGENHARIA ELÉTRICA E DE COMPUTAÇÃO (PPgEEC) - UFRN**
 
-**Disciplina:** Machine Learning **(EEC1509)**
+**Disciplina:** Aprendizagem de Máquina **(EEC1509)**
 
 **Grupo:** 
 
