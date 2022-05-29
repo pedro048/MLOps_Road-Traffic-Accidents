@@ -11,4 +11,12 @@
 
 **Dataset:** [Road_Traffic_Accidents.csv](https://www.kaggle.com/datasets/saurabhshahane/road-traffic-accidents)
 
+## Workflow:
+
+![Workflow](https://ibb.co/XYY1SM8)
+
+## Deploy:
+
+![Deploy](https://ibb.co/L11MBzd)
+
 API Deliveried with Heroku: https://road-traffic-accidents-app.herokuapp.com/docs
