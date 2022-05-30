@@ -24,7 +24,7 @@ In this project you will find the steps necessary for building a classification 
 
 ## Workflow:
 
-The pipeline in charge of initiate the process of place a ML model in production can be find in image below:
+The pipeline in charge of initiate the process of place a ML model in production can be find in the image below:
 
 ![Workflow](https://lh3.googleusercontent.com/pw/AM-JKLUCw27d6nW0YYrq-zIshMFLMSbCssGxQtNiQMwzxGu7W83kIgmfWlg75IKaNCCDuIB2Dk2ZTGLfEyvDt-AsW3F9m_MIVMlJoBPomkgBolc3WuSYvM2E3uFNDtcFgwhNE-dj1EcEMTtkhi8qmqBzvv9H=w1496-h948-no?authuser=0)
 
