@@ -38,6 +38,8 @@ All the process described in the image below is able to deliver a functional API
 
 ### **API Deliveried with Heroku:** https://road-traffic-accidents-app.herokuapp.com/docs
 
+## **Article on Medium**: 
+
 ## References:
 
 - https://github.com/ivanovitchm/ppgeecmachinelearning
