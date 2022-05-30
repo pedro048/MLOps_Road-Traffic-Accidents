@@ -45,3 +45,5 @@ In this project you will find the steps necessary for building a classification 
 - https://wandb.ai/site
 
 - https://id.heroku.com/login
+
+- https://www.anaconda.com/
