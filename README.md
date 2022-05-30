@@ -32,7 +32,7 @@ The pipeline in charge of initiate the process of place the model in production 
 
 ## Deploy:
 
-All the process described in the image below recive a wandb artefact and with it is able to deliver a functional API:
+All the process described in the image below is able to deliver a functional API:
 
 ![Deploy](https://lh3.googleusercontent.com/pw/AM-JKLXlXm09RhjF_hoHXWz4MhCFU9jF4VKlJr1OIcSinD0itYVclc8fJdRqTA6ECoBKcX7QLT8Ln8tRukszIyxMZIr_Y75nUxSp9DtY-xYXFHyVoDy6fSXCY_lU2mgjAqqdGL4lYrFOwsC22Eh9Tx55JgHz=w1598-h949-no?authuser=0)
 
